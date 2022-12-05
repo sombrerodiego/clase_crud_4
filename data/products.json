@@ -1,17 +1,11 @@
 [
   {
-    "id": "2",
-    "titulo": "Risotto de berenjena al escabeche",
+    "id": 3,
+    "titulo": "Mouse de Arroz",
+    "description": "Espárragos blancos con vinagreta de verduras y jamón ibérico",
+    "price": "37.50",
     "currency": "U$S",
-    "price": "50",
-    "description": "Risotto de berenjena y queso de cabra"
-  },
-  {
-    "titulo": "Mousse de arroz",
-    "currency": "$",
-    "price": "150",
-    "description": "Rico rico ricoooo",
-    "id": "3"
+    "image": "Mousse-de-arroz-con-leche.png"
   },
   {
     "id": 4,
@@ -49,5 +43,12 @@
     "price": "1900",
     "description": "Un pizza rica",
     "id": "070f7z96-3fce-513b-806a-332de93jh46v"
+  },
+  {
+    "titulo": "fruta",
+    "currency": "fruta",
+    "price": "123",
+    "description": "asddsaa",
+    "id": "e7e76aab-16bd-461d-90d8-05c5c9d15552"
   }
 ]

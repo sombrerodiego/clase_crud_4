@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const methodOverride = require('method-override');
 
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 4002;
 const mainRoutes = require('./routes/mainRoutes');
 const productsRoutes = require('./routes/productsRoutes');
 
@@ -18,7 +18,7 @@ app.use(methodOverride('_method'));
 // Routes
 app.use('/', mainRoutes);
 
-// http://localhost:4001/products
+// http://localhost:4002/products
 app.use('/products', productsRoutes);
 
 // configuarcion de public static
